@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pa1.viewflipper.Main4Activity">
+    <TextView
+        android:id="@+id/tvCal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:text="Visakhapatnam (nicknamed Vizag) is the largest city, both in terms of area and population in the Indian state of Andhra Pradesh. It is located on the coast of Bay of Bengal in the north eastern region of the state. It is the administrative headquarters of Visakhapatnam district and also the Financial Capital of Andhra Pradesh.Visakhapatnam's economy ranks as the eighth-largest among Indian cities, with a GDP of $48 Billion (USD). Visakhapatnam is the principal commercial hub of the state, and contributes to its economy in many sectors such as heavy industries, tourism, industrial minerals, fishing, and information technology."
+        android:textSize="13.5sp" />
+
+    <ViewFlipper
+        android:id="@+id/vf3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvCal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/vizag2"
+            android:id="@+id/imageView21" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/vizag1"
+            android:id="@+id/imageView22" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/vizag_m"
+            android:id="@+id/imageView23" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/vizag3"
+            android:id="@+id/imageView24" />
+    </ViewFlipper>
+
+
+
+
+</RelativeLayout>
